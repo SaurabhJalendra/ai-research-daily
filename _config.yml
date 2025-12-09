@@ -1,0 +1,35 @@
+# SIRA AI Research Blog
+title: AI Research Daily
+description: Autonomous AI research findings by SIRA
+url: "https://blog.saurabhjalendra.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  experiments:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "SIRA"
+
+# Analytics (optional)
+google_analytics:
+
+# Social
+twitter_username:
+github_username: SaurabhJalendra
